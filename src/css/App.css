@@ -1,0 +1,97 @@
+.icon-bar {
+    position: fixed;
+    top: 70%;
+    right: 0px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.icon-bar a {
+    text-decoration: none;
+    width: 170px;
+    background: #3b5999;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    font-size: 16px;
+    transform: translateX(125px);
+    transition: all 0.5s linear;
+}
+
+.icon-bar a i {
+    padding: 0 10px 0 5px;
+    font-size: 30px !important;
+}
+
+.icon-bar a:hover {
+    transform: translateX(0);
+}
+
+
+
+
+
+@media (max-width: 998px) { 
+    .icon-bar a {
+        width: 170px;
+        padding: 5px;
+        font-size: 16px;
+        transform: translateX(125px);
+    }
+    
+    .icon-bar a i {
+        padding: 0 10px 0 5px;
+        font-size: 30px !important;
+    }
+}
+
+
+
+@media (max-width: 768px) { 
+    .icon-bar a {
+        width: 170px;
+        padding: 5px;
+        font-size: 15px;
+        transform: translateX(128px);
+    }
+    
+    .icon-bar a i {
+        padding: 0 10px 0 5px;
+        font-size: 28px !important;
+    }
+}
+
+
+
+
+@media (max-width: 612px) { 
+    .icon-bar a {
+        width: 170px;
+        padding: 5px;
+        font-size: 15px;
+        transform: translateX(130px);
+    }
+    
+    .icon-bar a i {
+        padding: 0 10px 0 5px;
+        font-size: 25px !important;
+    }
+}
+
+
+
+@media (max-width: 450px) { 
+    .icon-bar a {
+        width: 150px;
+        padding: 5px;
+        font-size: 12px;
+        transform: translateX(115px);
+    }
+    
+    .icon-bar a i {
+        padding: 0 10px 0 5px;
+        font-size: 22px !important;
+    }
+}
